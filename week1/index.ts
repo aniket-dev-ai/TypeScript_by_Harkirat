@@ -11,3 +11,11 @@ function greet(name:string){
 }
 
 greet("Aniket")
+
+function sum(a:number,b:number){
+    return a+b;
+}
+
+let ans:number = sum(5,10);
+
+console.log(ans);
