@@ -26,3 +26,13 @@ function isLegal(age:number):boolean{
 }
 
 console.log(isLegal(20));
+
+
+
+function anotherFunction(fn:any){
+    setTimeout(fn, 1000);
+}
+
+anotherFunction(
+    function(){    console.log("Hello Aniket")}
+);
