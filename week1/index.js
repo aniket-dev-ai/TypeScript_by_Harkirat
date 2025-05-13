@@ -21,5 +21,22 @@ function anotherFunction(fn) {
 }
 anotherFunction(function () { console.log("Hello Aniket"); });
 anotherFunction(() => greet("Aniket The Great"));
-
-
+function greet2(user) {
+    console.log("Hello ji ", user.name);
+}
+let user = {
+    name: "Aniket",
+    age: 20
+};
+greet2(user);
+function greeter(user) {
+    console.log(user.firstName);
+    console.log(user.LastName);
+    console.log(user.Age);
+}
+let user2 = {
+    firstName: "Aniket",
+    LastName: "Srivastava",
+    Age: 20
+};
+greeter(user2);

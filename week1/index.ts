@@ -53,3 +53,29 @@ let user={
 }
 
 greet2(user)
+
+
+
+
+
+
+type UserType ={
+    firstName:string,
+    LastName:string,
+    Age:number
+}
+
+
+function greeter(user:UserType){
+    console.log(user.firstName)
+    console.log(user.LastName)
+    console.log(user.Age)
+}
+
+let user2 = {
+    firstName : "Aniket",
+    LastName : "Srivastava",
+    Age : 20
+}
+
+greeter(user2)
