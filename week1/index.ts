@@ -66,3 +66,17 @@ let user2 = {
 } // user2 object banaya jo UserType ke structure ko follow karta hai
 
 greeter(user2) // greeter function ko user2 ke saath call kiya
+
+
+
+
+
+
+type Users = Record<string,number>;
+
+const userr : Users ={
+    "Age1":19,
+    "SexCount":0
+}
+
+console.log(userr)
