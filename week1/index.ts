@@ -29,7 +29,7 @@ console.log(isLegal(20));
 
 
 
-function anotherFunction(fn:any){
+function anotherFunction(fn:()=> void){
     setTimeout(fn, 1000);
 }
 
