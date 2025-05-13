@@ -38,3 +38,18 @@ anotherFunction(
 );
 
 anotherFunction(() => greet("Aniket The Great"));
+
+function greet2(user: {
+    name:string,
+    age : number
+}){
+console.log("Hello ji ", user.name)
+}
+
+
+let user={
+    name:"Aniket",
+    age:20
+}
+
+greet2(user)
