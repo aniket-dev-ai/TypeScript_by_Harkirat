@@ -19,3 +19,10 @@ function sum(a:number,b:number){
 let ans:number = sum(5,10);
 
 console.log(ans);
+
+
+function isLegal(age:number){
+    return age>18;
+}
+
+console.log(isLegal(20));
