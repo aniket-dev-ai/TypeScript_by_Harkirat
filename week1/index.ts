@@ -29,10 +29,12 @@ console.log(isLegal(20));
 
 
 
-function anotherFunction(fn:()=> void){
+function anotherFunction(fn:(name:string)=> void){
     setTimeout(fn, 1000);
 }
 
 anotherFunction(
     function(){    console.log("Hello Aniket")}
 );
+
+anotherFunction(() => greet("Aniket The Great"));
