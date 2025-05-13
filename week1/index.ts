@@ -21,7 +21,7 @@ let ans:number = sum(5,10);
 console.log(ans);
 
 
-function isLegal(age:number){
+function isLegal(age:number):boolean{
     return age>18;
 }
 
